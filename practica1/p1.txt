@@ -1,0 +1,11 @@
+root@UbuntuSWAP1:~# apache2 -v
+Server version: Apache/2.4.18 (Ubuntu)
+Server built:   2016-07-14T12:32:26
+root@UbuntuSWAP1:~# ps aux | grep apache
+root      2292  0.0  2.4 258420 25200 ?        Ss   18:54   0:00 /usr/sbin/apache2 -k start
+www-data  2312  0.0  0.7 258444  7796 ?        S    18:54   0:00 /usr/sbin/apache2 -k start
+www-data  2313  0.0  0.7 258444  7796 ?        S    18:54   0:00 /usr/sbin/apache2 -k start
+www-data  2314  0.0  0.7 258444  7796 ?        S    18:54   0:00 /usr/sbin/apache2 -k start
+www-data  2315  0.0  0.7 258444  7796 ?        S    18:54   0:00 /usr/sbin/apache2 -k start
+www-data  2316  0.0  0.7 258444  7796 ?        S    18:54   0:00 /usr/sbin/apache2 -k start
+root      2632  0.0  0.0  16756   932 pts/0    S+   19:02   0:00 grep --color=auto apache
