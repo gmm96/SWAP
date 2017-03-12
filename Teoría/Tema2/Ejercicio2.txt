@@ -1,19 +1,19 @@
 - QNX High Availability Framework: este framework para sistemas con SO de tiempo real QNX es capaz
-											  de detectar cuando termina un proceso y recuperar su estado 
-											  gracias al High Availability Manager (HAM).
+                                   de detectar cuando termina un proceso y recuperar su estado 
+                                   gracias al High Availability Manager (HAM).
 
 - Linux HA: consiste en un proyecto que proporciona alta disponibilidad a SO como Linux, Solaris,
-				FreeBSD, OpenBSD y Mac OS X. Su componente principal es Heartbeat, un programa
-				portable para gestión clústers de alta disponibilidad.
+            FreeBSD, OpenBSD y Mac OS X. Su componente principal es Heartbeat, un programa
+            portable para gestión clústers de alta disponibilidad.
 
 - Process Manager 2: PM2 es un gestor de procesos para aplicaciones Node.js con un balanceador de 
-							carga integrado. Este permite mantener aplicaciones siempre en activo, 
-							recargarlas sin tiempo de inactividad y facilitar las tareas cómunes de 
-							cualquier administrador de sistemas.
+                     carga integrado. Este permite mantener aplicaciones siempre en activo, 
+                     recargarlas sin tiempo de inactividad y facilitar las tareas cómunes de 
+                     cualquier administrador de sistemas.
 
 - Shoal: este es un framework basado en java para clústers que proporciona herramientas para la
-			tolerancia a fallos, fiabilidad y alta disponibilidad. Este puede ser acoplado como un 
-			componente del proceso.
+         tolerancia a fallos, fiabilidad y alta disponibilidad. Este puede ser acoplado como un 
+         componente del proceso.
 
 
 QNX HAF: http://www.qnx.com/developers/docs/6.4.1/ham_en/ham/hamover.html

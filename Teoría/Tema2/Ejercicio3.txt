@@ -1,12 +1,12 @@
 - top: es una herramienta Linux para analizar el nivel de carga de CPU y memoria, entre otros.
 
 - iostat: es un comando Linux que nos permite ver estadísticas de la entrada/salida de los 
-			 distintos componentes de un sistema.
+          distintos componentes de un sistema.
 
 - vmstat: comando Linux que da un informe sobre estadísticas de la memoria virtual.
 
 - netstat: es una herramienta para sistemas Linux que muestra un listado de las conexiones 
-			  activas de un sistema.
+           activas de un sistema.
 
 top: https://linux.die.net/man/1/top
 iostat: https://linux.die.net/man/1/iostat

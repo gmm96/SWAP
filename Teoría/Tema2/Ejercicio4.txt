@@ -1,16 +1,17 @@
 - Ejemplo balanceador software: HAProxy, un balanceador de cargas HTTP/TCP gratuito de alta
-										  disponibilidad y fiabilidad.
+                                disponibilidad y fiabilidad.
 
 - Ejemplo balanceador hardware: BIG-IP, un producto ofrecido en los componentes de la empresa
-										  F5 Networks que incluye, entre otros, un balanceador de carga
-										  por hardware.
+                                F5 Networks que incluye, entre otros, un balanceador de carga
+                                por hardware.
 
 - Ejemplo para servidor de aplicaciones: Amazon EC2 Application Load Balancer, una herramienta 
-													  balanceo de carga que opera en la capa de aplicación en los servidores de Amazon EC2.
+                                         balanceo de carga que opera en la capa de aplicación en
+                                         los servidores de Amazon EC2.
 
 - Ejemplo para servidor de almacenamiento: SANsymphony-V, un servicio de la empresa Datacore que 
-														 un balanceador de carga para una agrupación de discos,
-														 además de un balanceador de carga para aplicaciones.
+                                           un balanceador de carga para una agrupación de discos,
+                                           además de un balanceador de carga para aplicaciones.
 
 HAProxy: http://www.haproxy.org/
 BIP-IP: https://f5.com/es/products/big-ip
