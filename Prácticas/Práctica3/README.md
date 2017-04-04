@@ -1,6 +1,8 @@
 # Práctica 3
 
-### Pasos iniciales
+#### Guillermo Montes Martos | 04/04/2017
+
+### 0. Pasos iniciales
 Lo primero que tendremos que realizar para esta práctica será instalar una tercera máquina virtual (se ha elegido el mismo SO, Ubuntu 16.04 server). Esta deberá de tener conexión con las otras dos máquinas creadas anteriormente.
 
 Por otro lado, se han creado sendos ficheros *HTML* identificativos en ambos servidores, de manera que, cuándo comprobemos el funcionamiento del balanceador, podamos observar rápidamente si este está funcionando.
@@ -9,7 +11,9 @@ Por otro lado, se han creado sendos ficheros *HTML* identificativos en ambos ser
 
 ![Servidor 2](img/server2.png "Servidor 2")
 
-###  Instalación de Nginx como balanceador de carga
+<br>
+
+###  1. Instalación de Nginx como balanceador de carga
 Para instalarlo en nuestra tercera máquina, tendremos que ejecutar la siguiente sentencia tal y como se explica en el guión de prácticas:
 
 ```shell
@@ -34,7 +38,9 @@ curl 192.168.56.103/hola.html
 
 Tal y como podemos comprobar, el funcionamiento es el esperado, ya que, si comparamos la carga asignada a cada servidor real, asigna el doble a la primera, tal y como se pidió en el guión. Además, sabemos que Nginx mete una marca identificativa en los **headers** de la página solicitada. Así, nos descargamos los headers de la página añadiendo la opción *-I* a la sentencia *curl* y comprobamos como funciona correctamente.
 
-### Instalación de Haproxy como balanceador de carga
+<br>
+
+### 2. Instalación de Haproxy como balanceador de carga
 Para la configuración de Haproxy, tendremos que seguir un proceso similar al seguido anteriormente con Nginx. El primer paso será instalarlo mediante la orden:
 
 ```shell
@@ -51,7 +57,9 @@ Guardado el fichero, iniciamos el servicio Haproxy (no sin antes comprobar que h
 
 Podemos observar como los resultados obtenidos son los adecuados según la configuración solicitada en el guión de prácticas. Por otro lado, también podemos ver como Haproxy no añade su huella a los headers de la página solicitada, a diferencia de Nginx, el cual sí lo hacía.
 
-### Pruebas de alta carga en ambos balanceadores
+<br>
+
+### 3. Pruebas de alta carga en ambos balanceadores
 
 Para llevar a cabo esta prueba, se ha elegido la conocida herramienta Apache Benchmark (*ab*). Si no estuviese instalada, sería tan fácil como ejecutar:
 
