@@ -2,6 +2,8 @@
 
 #### Guillermo Montes Martos | 04/04/2017
 
+<br>
+
 ### 0. Pasos iniciales
 Lo primero que tendremos que realizar para esta práctica será instalar una tercera máquina virtual (se ha elegido el mismo SO, Ubuntu 16.04 server). Esta deberá de tener conexión con las otras dos máquinas creadas anteriormente.
 
