@@ -4,7 +4,7 @@
 
 <br>
 
-### 0. Pasos iniciales
+### 0. Preparación de la práctica
 Lo primero que tendremos que realizar para esta práctica será instalar una tercera máquina virtual (se ha elegido el mismo SO, Ubuntu 16.04 server). Esta deberá de tener conexión con las otras dos máquinas creadas anteriormente.
 
 Por otro lado, se han creado sendos ficheros *HTML* identificativos en ambos servidores, de manera que, cuándo comprobemos el funcionamiento del balanceador, podamos observar rápidamente si este está funcionando.
