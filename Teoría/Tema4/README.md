@@ -4,7 +4,7 @@
 
 <br>
 
-##### 4.1. Buscar información sobre cuánto costaría en la actualidad un mainframe. Comparar precio y potencia entre esa máquina y una granja web de unas prestaciones similares.
+#### 4.1. Buscar información sobre cuánto costaría en la actualidad un mainframe. Comparar precio y potencia entre esa máquina y una granja web de unas prestaciones similares.
 
 Un mainframe podría considerarse como un *superservidor*, capaz de procesar altos volúmenes de tareas y datos en paralelo sin apenas inmutarse. Estos, sin embargo, no son nada accesibles, dada su avanzada tecnología basada en hardware propietario. Por ejemplo, el último modelo de mainframe desarrollado por IBM, el [IBM Z13](https://www-03.ibm.com/systems/es/z/hardware/z13.html), dedicado especialmente para el tráfico de dispositivos móviles, costaría entre $75.000 y $4.000.000 (el precio de este varía según los servicios de mantenimiento contratados).
 
@@ -14,7 +14,7 @@ Sin embargo, el uso de mainframes ha caido en picado en favor de las granjas de 
 
 <br>
 
-##### 4.2. Buscar información sobre precio y características de balanceadores hardware específicos. Compara las prestaciones que ofrecen unos y otros.
+#### 4.2. Buscar información sobre precio y características de balanceadores hardware específicos. Compara las prestaciones que ofrecen unos y otros.
 
 Los precios son muy variados dependiendo de las especificaciones de cada uno, pero podemos encontrar los más básicos y sencillos por precios cercanos a los 400€. No se ha podido establecer una cota superior de precio por la gran cantidad de productos en el mercado. Comparamos estos dos ejemplos.
 
@@ -26,13 +26,13 @@ HTTPS (SSL) Terminations per sec (2K Keys). The Barracuda Load Balancer is desig
 
 <br>
 
-##### 4.3. Buscar información sobre los métodos de balanceo que implementan los dispositivos recogidos en el ejercicio 4.2
+#### 4.3. Buscar información sobre los métodos de balanceo que implementan los dispositivos recogidos en el ejercicio 4.2
 
 Ha sido imposible encontrar información sobre los métodos de balanceo de carga de los dispositivos recogidos en el anterior ejercicio. Los proveedores mantienen una política cerrada al respecto.
 
 <br>
 
-##### 4.4. Instala y configura en una máquina virtual el balanceador ZenLoadBalancer.
+#### 4.4. Instala y configura en una máquina virtual el balanceador ZenLoadBalancer.
 
 Desde el verano de 2016, ZenLoadBalancer se unió a Sofintel IT Engineering, de manera que quedó integrado en el producto [Zevenet](https://www.zevenet.com/blog/zen-load-balancer-becomes-zevenet/) de la misma compañía. Así pues, descargamos la ISO desde [sourceforge](https://sourceforge.net/projects/zevenet/files/latest/download) y procedemos a su instalación.
 
@@ -50,7 +50,7 @@ El proceso de instalación es similar al que seguiríamos con una distribución 
 
 <br>
 
-##### 4.5. Probar las diferentes maneras de redirección HTTP. ¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por qué?
+#### 4.5. Probar las diferentes maneras de redirección HTTP. ¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por qué?
 
 Si queremos elegir la forma adecuada, debemos de hacer un primer filtrado de todas las posibles maneras de redirección ofrecidas en el tema, de las cuales nos quedamos con las dos escritas en **PHP**. El motivo es claro: estas redirecciones tienen lugar en la parte servidora y no en el cliente, de manera que ahorramos una petición al servidor y, por lo tanto, la carga de este será menor. 
 
@@ -62,7 +62,7 @@ Por otro lado, está bastante claro que la **peor** opción de todas es la **HTM
 
 <br>
 
-##### 4.6. Buscar información sobre los bloques de IP para los distintos países o continentes. Implementar en JavaScript o PHP la detección de la zona desde donde se conecta un usuario.
+#### 4.6. Buscar información sobre los bloques de IP para los distintos países o continentes. Implementar en JavaScript o PHP la detección de la zona desde donde se conecta un usuario.
 
 Las direcciones IP están repartidas según áreas. Cada una de estas áreas tiene asignado un organismo coordinador encargado de todo este tipo de gestiones. Así pues, en Europa  y África es el *RIPE*, mientras que en Norteamérica y en Sudamérica son *ARIN* y *LACNIC*, respectivamente.
 
@@ -89,7 +89,7 @@ echo $country_name;
 
 <br>
 
-##### 4.7. Buscar información sobre métodos y herramientas para implementar GSLB.
+#### 4.7. Buscar información sobre métodos y herramientas para implementar GSLB.
 
 La implementación de un **GSLB** (Global Server Load Balancer) no es una tarea sencilla. Esto conlleva una serie de recursos técnicos y materiales que debemos de poseer para su implementación. En cualquier caso, intentaremos realizar un esquema bastante resumido:
 
