@@ -48,7 +48,7 @@ Una vez realizado, comprobamos que la máquina sirve contenido correctamente y a
 Con el cortafuegos bien configurado, tendremos que asegurarnos que este script se ejecuta cada vez que arrancamos el servidor. Para ello, añadimos la siguiente línea al fichero */etc/crontab* de nuestra máquina balanceadora:
 
 ```shell
-@reboot     root        sh /home/gmm/.iptables.sh
+@reboot     root        sh /home/gmm/reglas_iptables.sh
 ```
 
 Realizaremos la misma configuración en la segunda máquina servidora.
