@@ -4,7 +4,7 @@
 
 ___
 
-#### 4.1. Buscar información sobre cómo calcular el número de conexiones por segundo. Para empezar, podéis revisar las siguientes webs: [http://bit.ly/1ye4yHz](http://bit.ly/1ye4yHz) y [http://bit.ly/1PkZbLJ](http://bit.ly/1PkZbLJ)
+#### 1. Buscar información sobre cómo calcular el número de conexiones por segundo. Para empezar, podéis revisar las siguientes webs: [http://bit.ly/1ye4yHz](http://bit.ly/1ye4yHz) y [http://bit.ly/1PkZbLJ](http://bit.ly/1PkZbLJ)
 
 Si nuestro servidor web se trata de **Nginx**, no tendremos problema alguno, ya que este cuenta con un módulo llamado *HttpStubStatusModule*, el cuál nos permite, entre otras cosas, medir el número de conexiones abiertas, conexíones por segundo, etc. Para activarlo, tan solo tendremos que modificar el fichero de configuración de Nginx añadiendo lo siguiente:
 
@@ -33,7 +33,7 @@ En cualquier otro caso, es posible usar la herramienta [*netstat*](https://linux
 ```
 ___
 
-#### 4.2. Revisar los análisis de tráfico que se ofrecen en [http://bit.ly/1g0dkKj](http://bit.ly/1g0dkKj). Instalar wireshark y observar cómo fluye el tráfico de red en uno de los servidores web mientras se le hacen peticiones HTTP.
+#### 2. Revisar los análisis de tráfico que se ofrecen en [http://bit.ly/1g0dkKj](http://bit.ly/1g0dkKj). Instalar wireshark y observar cómo fluye el tráfico de red en uno de los servidores web mientras se le hacen peticiones HTTP.
 
 Wireshark es una herramienta gráfica que nos permite analizar los paquetes que circulan por nuestra máquina e, incluso, por nuestra red si es abierto en modo promiscuo. En otras palabras, es lo que se llama un *sniffer*.
 
@@ -46,7 +46,7 @@ Una vez abierto, seleccionamos la red que queremos analizar y podemos ver todos 
 ___
 
 
-#### 4.3. Buscar información sobre características, disponibilidad para diversos SO, etc de herramientas para monitorizar las prestaciones de un servidor.
+#### 3. Buscar información sobre características, disponibilidad para diversos SO, etc de herramientas para monitorizar las prestaciones de un servidor.
 + [top](https://linux.die.net/man/1/top): esta herramienta no es más que un **monitor dinámico** del sistema en tiempo real. Muestra información resumida sobre el consumo de recursos del computador, así como una lista de los **procesos en ejecución**, los cuales podemos manipular de manera interactiva. Se puede encontrar en todos los sistemas con base Unix, como Linux o MacOS.
 + [vmstat](https://linux.die.net/man/8/vmstat): esta utilidad disponible es sistemas Unix nos ofrece estadísticas de **uso de la memoria virtual**, tales como memoria usada por procesos, paginación, bloques de E/S, etc, así como de la **CPU**.
 + [netstat](https://linux.die.net/man/8/netstat): este comando nos brinda un listado de las **conexiones activas** de nuestro sistema, ya sean entrantes o salientes. Se puede encontrar tanto en sistemas basados en Unix como en Windows.
