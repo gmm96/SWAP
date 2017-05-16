@@ -47,7 +47,7 @@ ___
 
 Hay varias herramientas en sistemas Linux para comprobar los puertos que tenemos abiertos en nuestra máquina. Una de ellas es el comando [netstat](https://linux.die.net/man/8/netstat), el cual acompañado de los parámetros adecuados, es capaz de mostrar los puertos abiertos, su estado y el programa que los ocupa.
 
-![Puertos abiertos](img/netstat.png "Puertos abiertos")
+![Puertos abiertos](img/puertos_netstat.png "Puertos abiertos")
 
 ___
 
