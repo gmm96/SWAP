@@ -6,13 +6,16 @@
 
 Este trabajo consta de una primera introducción teórica y 3 demostraciones del ataque MITM con diferente dificultad (las dos primeras realizadas en clase, la última en vídeo).
 
+### 0. Resumen
+
+La seguridad es un tema muy importante en nuestro servidor web. En este trabajo explicaremos uno de los posibles ataques que puede recibir, como es un ataque Man In The Middle (MITM), consistente en la interceptación y/o manipulación de la comunicación entre dos máquinas sin que estas sean sean conscientes de ello. También, detallaremos varios conceptos y herramientas que debemos de conocer para entenderno y llevarlo a cabo, así como realizaremos varios ataques a modo de demostración, desde los más sencillos (ataques sobre páginas web con HTTP y cookie hijacking) hasta los más complicados (sobre webs con HTTPS). 
 ___
 
 ### 1. Introducción teórica
 
 En esta sección se introducen unos pocos **conceptos teóricos** necesarios para entender qué se va a hacer, cómo y por qué. Además, se detallan las herramientas utilizadas y algunas vulnerabilidades a explotar.
 
-Para su presentación, se usó un proyecto de prezi que podemos encontrar de manera abierta [aquí](http://prezi.com/lbj0zbbj0zsj).
+Para su presentación, se usó un proyecto de prezi que podemos [encontrar de manera abierta aquí](http://prezi.com/lbj0zbbj0zsj).
 
 ___
 
